@@ -1,4 +1,5 @@
-#!/bin/bash 
-cat /etc/ssh/sshd_config | grep "^[[:upper:]]"
+#!/bin/bash
+grep '^[A-Za-z]' /etc/ssh/sshd_config
+
 
 
